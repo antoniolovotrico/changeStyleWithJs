@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorbase: green;
+  --position: 50px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--position);
+  background-color: var(--colorbase);
+  filter: blur(var(--blur));
+}
+
+body {
+  background-color: rgb(59, 55, 55);
+  color: aliceblue;
+  text-align: center;
+}
+
+.control {
+  margin: 50px;
+}
